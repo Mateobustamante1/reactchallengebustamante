@@ -1,0 +1,20 @@
+.aside {
+  min-height: 100dvh;
+  background-color: ghostwhite;
+  width: 100%;
+  max-width: 320px;
+  position: fixed;
+  z-index: 10;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  inset: 0;
+  min-height: 100dvh;
+  z-index: 5;
+}
